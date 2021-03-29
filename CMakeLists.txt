@@ -29,7 +29,7 @@ endif()
 
 add_definitions(-DFC_USE_SDL_GPU)
 
-add_library(SDL_FontCache
+add_library(SDL_FontCache SHARED
     SDL_FontCache.h
     SDL_FontCache.c
 )
